@@ -8,4 +8,4 @@ Herhangi bir yerde kullanabilirsiniz. Örnek olması için yapılmıştır. Kend
 **.badges** içinde ki her li elemanı birer rozet olarak sayılıyor. İstediğiniz kadar rozet ekleyebilirsiniz, tüm rozetler badges klasörü içinde var. Yeni rozet eklemek için yeni bir li oluşturup badges klasöründe eklemek istediğiniz rozeti bulun ve ismini class olarak li elemanına ekleyin.
 
 # Bio
-**.bio** içinde ki p elemanına istediğiniz hakkındayı yazabilirsiniz fakat içinde emoji ekleyecekseniz Discordda olduğu gibi <:isim:id> şeklinde ekleyeceksiniz. Eğer ekleyeceğiniz emoji hareketli bir emoji ise &lt;a:isim:id> şeklinde ekleyin yoksa çalışmaz.
+**.bio** içinde ki p elemanına istediğiniz hakkındayı yazabilirsiniz fakat içinde emoji ekleyecekseniz Discordda olduğu gibi <:isim:id> şeklinde ekleyeceksiniz. Eğer ekleyeceğiniz emoji hareketli bir emoji ise `&lt;a:isim:id>` şeklinde ekleyin yoksa çalışmaz.
