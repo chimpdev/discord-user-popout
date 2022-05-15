@@ -21,7 +21,7 @@ note.addEventListener('keypress', event => {
     event.preventDefault();
     note.disabled = true;
     note.disabled = false;
-  }
+  };
 });
 
 document.querySelectorAll('[tippy]').forEach(el => {
@@ -32,8 +32,8 @@ document.querySelectorAll('[tippy]').forEach(el => {
     arrow: true,
     theme: 'discord',
     duration: [80, 80],
-    delay: el.getAttribute('tippy-delay') ? el.getAttribute('tippy-delay').split(',').reduce((a, b) => a.concat(b), []) : [0, 0],
+    delay: el.getAttribute('tippy-delay') ? el.getAttribute('tippy-delay').split(', ').reduce((a, b) => a.concat(b), []) : [0, 0],
     inertia: true,
     animation: 'discord'
-  })
+  });
 });
