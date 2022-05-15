@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Whitney Book';
+  src: url('/fonts/whitneybook.otf');
+}
+
+@font-face {
+  font-family: 'Whitney Medium';
+  src: url('/fonts/whitneymedium.otf');
+}
+
+@font-face {
+  font-family: 'Whitney Bold';
+  src: url('/fonts/whitneybold.otf');
+}
+
+@font-face {
+  font-family: 'Whitney Semibold';
+  src: url('/fonts/whitneysemibold.otf');
+}
+
+@font-face {
+  font-family: 'Ginto';
+  src: url('/fonts/ginto.otf');
+}

@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  list-style: none;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #292B2F;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+}
+
+.tippy-box[data-theme~='discord'] {
+  background-color: #18191c;
+  text-align: center;
+  font-family: 'Whitney Book';
+  font-size: 17px;
+  padding: 4px;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 150px;
+  border-radius: 7px;
+}
+
+.tippy-box[data-theme~='discord'] .tippy-arrow::before {
+  border-color: #18191c transparent transparent;
+  -webkit-transform: translateY(-2.5px);
+          transform: translateY(-2.5px);
+}
+
+.tippy-box[data-animation="discord"][data-state='hidden'] {
+  opacity: 0;
+  -webkit-transform: translateY(5px) scale(0.8);
+          transform: translateY(5px) scale(0.8);
+}
+
+.click-to-learn-more {
+  color: #b9bbbe;
+}
+
+.container {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  width: 225px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #18191C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 4px;
+}
+
+.container .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding-top: 40px;
+  position: relative;
+  padding-left: 12px;
+  padding-bottom: 5px;
+}
+
+.container .bottom div span {
+  font-size: 9.11px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: 'Whitney Bold';
+  color: #B9BBBE;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container .bottom div.note {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .bottom div.note textarea {
+  max-width: 200px;
+  background: none;
+  resize: none;
+  padding-top: 4.5px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  border-radius: 2.5px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(-4px, -7px);
+          transform: translate(-4px, -7px);
+  padding-left: 4px;
+  font-family: 'Whitney Medium';
+  outline: none;
+  font-size: 8px;
+  line-height: 14px;
+  height: 35px;
+  color: #B9BBBE;
+  word-break: break-all;
+}
+
+.container .bottom div.note textarea::-webkit-input-placeholder {
+  color: #B9BBBE;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.container .bottom div.note textarea:-ms-input-placeholder {
+  color: #B9BBBE;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+.container .bottom div.note textarea::-ms-input-placeholder {
+  color: #B9BBBE;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+.container .bottom div.note textarea::placeholder {
+  color: #B9BBBE;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container .bottom div.note textarea:focus {
+  background-color: #202225;
+}
+
+.container .bottom div.note textarea:focus::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #292B2F;
+}
+
+.container .bottom div.about-me .bio p {
+  line-height: 18px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  margin-top: 6px;
+  font-family: 'Whitney Medium';
+  font-size: 10.5px;
+  color: #DCDDDE;
+}
+
+.container .bottom div.about-me .bio p .emoji {
+  width: 15px;
+  height: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.container .bottom div.about-me .bio p img {
+  -webkit-transform: translateY(3.5px);
+          transform: translateY(3.5px);
+  width: 13px;
+  cursor: pointer;
+}
+
+.container .bottom div.about-me .bio p a {
+  color: #00AFF4;
+  text-decoration: none;
+}
+
+.container .bottom div.about-me .bio p a:hover {
+  text-decoration: underline;
+}
+
+.container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 123.5px;
+  position: relative;
+}
+
+.container .top .hr {
+  z-index: 99;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .top .hr span {
+  width: 201px;
+  background-color: #262729;
+  height: 1px;
+  margin-top: 30px;
+}
+
+.container .top .banner {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  min-height: 90px;
+  background-color: #d79d85;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .top .banner div {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  opacity: 0;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  width: 19px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 13px;
+}
+
+.container .top .banner div svg {
+  width: 12px;
+  height: 13px;
+  border-radius: 12px;
+  position: absolute;
+  top: -0.4px;
+  right: 4.5px;
+}
+
+.container .top .banner:hover div {
+  opacity: 1;
+  top: 5px;
+}
+
+.container .top .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .top .content .right .badges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-right: 17px;
+  padding-top: 14px;
+}
+
+.container .top .content .right .badges ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 135px;
+}
+
+.container .top .content .right .badges ul li {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.container .top .content .right .badges ul li.employee {
+  background-image: url("/badges/employee.svg");
+}
+
+.container .top .content .right .badges ul li.partner {
+  height: 9px;
+  -webkit-transform: translateY(1.5px);
+          transform: translateY(1.5px);
+  background-image: url("/badges/partner.svg");
+}
+
+.container .top .content .right .badges ul li.moderator {
+  width: 10.91px;
+  background-image: url("/badges/moderator.svg");
+}
+
+.container .top .content .right .badges ul li.nitro {
+  width: 16px;
+  height: 11px;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  background-image: url("/badges/nitro.svg");
+}
+
+.container .top .content .right .badges ul li.balance {
+  background-image: url("/badges/balance.svg");
+}
+
+.container .top .content .right .badges ul li.supporter {
+  width: 17.15px;
+  background-image: url("/badges/supporter.svg");
+}
+
+.container .top .content .right .badges ul li.botdev {
+  width: 15px;
+  background-image: url("/badges/botdev.svg");
+}
+
+.container .top .content .right .badges ul li.boost {
+  margin-left: 5px;
+  width: 7.05px;
+  background-image: url("/badges/boost.svg");
+}
+
+.container .top .content .right .badges ul li.bravery {
+  background-image: url("/badges/bravery.svg");
+}
+
+.container .top .content .right .badges ul li.bug1 {
+  width: 12.71px;
+  background-image: url("/badges/bug1.svg");
+}
+
+.container .top .content .right .badges ul li.bug2 {
+  width: 12.69px;
+  background-image: url("/badges/bug2.svg");
+}
+
+.container .top .content .right .badges ul li.brilliance {
+  width: 13.2px;
+  background-image: url("/badges/brilliance.svg");
+}
+
+.container .top .content .right .badges ul li.events {
+  width: 13.2px;
+  background-image: url("/badges/events.svg");
+}
+
+.container .top .content .left {
+  padding-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.container .top .content .left .username {
+  font-family: 'Ginto';
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 37px;
+  height: 20px;
+}
+
+.container .top .content .left .username .discriminator {
+  color: #b9bbbe;
+}
+
+.container .top .content .left .avatar {
+  background-image: url(https://cdn.discordapp.com/attachments/925563605238292490/975501217948123186/5174518cef622053409c30586457be40.jpg?size=1024);
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  border: 5px solid #18191C;
+  position: absolute;
+  border-radius: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container .top .content .left .avatar .status {
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  border: 4px solid #18191C;
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-size: cover;
+  background-position: center;
+  background-color: #18191C;
+}
+
+.container .top .content .left .avatar .status.online {
+  background-color: #3BA55C;
+}
+
+.container .top .content .left .avatar .status.idle {
+  background-image: url("/status/idle.svg");
+}
+
+.container .top .content .left .avatar .status.dnd {
+  background-image: url("/status/dnd.svg");
+}
+
+.container .top .content .left .avatar .status.offline {
+  background-image: url("/status/offline.svg");
+}
+
+.container .top .content .left .avatar .status.streaming {
+  background-image: url("/status/streaming.svg");
+}
+/*# sourceMappingURL=main.css.map */
